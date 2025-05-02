@@ -10,12 +10,18 @@
     </parent>
 
     <artifactId>flink-realtime-dwd</artifactId>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <packaging>pom</packaging>
+    <modules>
+        <module>realtime-dwd-base-log</module>
+        <module>realtime-dwd-interaction-comment-info</module>
+        <module>realtime-dwd-trade-cart-add</module>
+        <module>realtime-dwd-trade-order-detail</module>
+        <module>realtime-dwd-trade-order-cancel-detail</module>
+        <module>realtime-dwd-trade-order-pay-suc-detail</module>
+        <module>realtime-dwd-trade-order-refund</module>
+        <module>realtime-dwd-trade-refund-pay-suc-detail</module>
+        <module>realtime-dwd-base-db</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -25,5 +31,4 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
 </project>

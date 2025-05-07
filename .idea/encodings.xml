@@ -41,6 +41,12 @@
     <file url="file://$PROJECT_DIR$/flink-realtime/flink-realtime-dws/realtime-dws-user-user-login-window/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-realtime/flink-realtime-dws/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-realtime/flink-realtime-dws/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-realtime/flink-realtime-ods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-realtime/flink-realtime-ods/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-realtime/flink-realtime-sensitive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-realtime/flink-realtime-sensitive/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-realtime/sensitive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-realtime/sensitive/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-realtime/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-realtime/src/main/resources" charset="UTF-8" />
   </component>

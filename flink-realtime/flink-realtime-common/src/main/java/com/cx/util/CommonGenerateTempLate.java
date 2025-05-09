@@ -1,13 +1,13 @@
 package com.cx.util;
 
-
+import static com.cx.util.SiliconFlowApi.generateBadReview;
 public class CommonGenerateTempLate {
 
     private static final String COMMENT_TEMPLATE = "生成一个电商%s,商品名称为%s,20字数以内,%s不需要思考过程 ";
 
     private static final String COMMENT = "差评";
 
-    private static final String API_TOKEN = "sk-pfaasdbkktgnunlvoapothvybwflwdteckwmhakzqbthcgnj";
+    private static final String API_TOKEN = "sk-mbkquofajmeyzfowolnioseunulvulauadlgcvoetcvayiye";
 
     public static String GenerateComment(String comment,String productName){
         if (comment.equals(COMMENT)){
@@ -20,9 +20,6 @@ public class CommonGenerateTempLate {
                 String.format(COMMENT_TEMPLATE,COMMENT, productName,""),
                 API_TOKEN
         );
-    }
-
-    private static String generateBadReview(String format, String apiToken) {
     }
 
 }

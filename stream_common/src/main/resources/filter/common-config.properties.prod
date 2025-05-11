@@ -1,0 +1,65 @@
+#env
+env=production
+
+# MySQL
+mysql.host=cdh03
+mysql.port=3306
+mysql.url=jdbc:mysql://cdh03:3306/realtime_v1
+mysql.timezone=Asia/Shanghai
+mysql.database=realtime_v1
+mysql.user=root
+mysql.pwd=root
+mysql.spider.db=realtime_v1
+
+# Redis
+redis.host=cdh03
+redis.port=6379
+redis.user=
+redis.pwd=123456
+redis.blacklist.db=0
+
+# Hologres
+holo.endpoint=your_holo_endpoint_url  # 替换为实际的Hologres端点URL
+holo.database=your_holo_database_name  # 替换为实际的Hologres数据库名
+ali.key=your_ali_key  # 替换为实际的阿里云密钥
+ali.pwd=your_ali_pwd  # 替换为实际的阿里云密码
+
+# kafka cdh
+kafka.bootstrap.servers=cdh01:9092,cdh02:9092,cdh03:9092
+REALTIME.KAFKA.LOG.TOPIC=your_realtime_kafka_log_topic  # 根据实际情况更改
+kafka.topic.db=your_kafka_topic_db  # 根据实际情况更改
+kafka.dirty.topic=your_kafka_dirty_topic  # 根据实际情况更改
+kafka.err.log=/path/to/your/kafka/err.log  # 根据实际路径更改
+kafka.start.log=/path/to/your/kafka/start.log  # 根据实际路径更改
+kafka.display.log=/path/to/your/kafka/display.log  # 根据实际路径更改
+kafka.action.log=/path/to/your/kafka/action.log  # 根据实际路径更改
+kafka.page.topic=your_kafka_page_topic  # 根据实际情况更改
+kafka.cdc.db.topic=your_kafka_cdc_db_topic  # 根据实际情况更改
+kafka.db.fact.comment.topic=your_kafka_db_fact_comment_topic  # 根据实际情况更改
+kafka.result.sensitive.words.topic=your_kafka_result_sensitive_words_topic  # 根据实际情况更改
+
+# Push Message Feishu
+push.feishu.url=https://open.feishu.cn/open-apis/bot/v2/hook/your_webhook_url  # 替换为实际的飞书Webhook URL
+
+# file log
+REALTIME.LOG.FILE.PATH=/var/log/your_project/realtime.log  # 根据实际路径更改
+REALTIME.MSG.POSITION.FILE.PATH=/var/log/your_project/realtime_msg_position.log  # 根据实际路径更改
+
+# Zookeeper Server
+zookeeper.server.host.list=192.168.1.104:2181,192.168.1.105:2181  # 替换为实际的Zookeeper服务器地址和端口
+
+# Hbase
+hbase.namespace=your_hbase_namespace  # 根据实际情况更改
+
+# FLINK
+flink.submit.user=your_flink_submit_user  # 替换为实际的Flink提交用户
+flink.conf.configurationDirectory=/path/to/your/flink/conf  # 根据实际路径更改
+flink.cluster.libs=/path/to/your/flink/cluster/libs  # 根据实际路径更改
+flink.checkpoint.hdfs.dir=hdfs://your_hdfs_namenode:8020/flink/checkpoints  # 根据实际的HDFS地址和路径更改
+flink.checkpoint.minio.dir=minio://your_minio_endpoint/flink/checkpoints  # 根据实际的MinIO地址和路径更改
+
+# silicon_api_token
+silicon.api.token=your_silicon_api_token  # 替换为实际的silicon_api_token
+
+# Hive
+hive.conf.dir=/path/to/your/hive/conf  # 根据实际路径更改

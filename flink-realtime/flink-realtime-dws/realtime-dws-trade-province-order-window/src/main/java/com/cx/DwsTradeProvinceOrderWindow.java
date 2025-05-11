@@ -46,7 +46,6 @@ public class DwsTradeProvinceOrderWindow extends BaseApp {
                 "dws_trade_province_order_window",
                 Constant.TOPIC_DWD_TRADE_ORDER_DETAIL
         );
-
     }
     @Override
     public void handle(StreamExecutionEnvironment env, DataStreamSource<String> kafkaStrDS) {

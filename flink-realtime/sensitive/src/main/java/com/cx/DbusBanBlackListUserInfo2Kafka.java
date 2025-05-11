@@ -23,7 +23,6 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Package com.lzy.stream.realtime.v1.sensitive.DbusBanBlackListUserInfo2Kafka
  * @description: 敏感词
  */
 

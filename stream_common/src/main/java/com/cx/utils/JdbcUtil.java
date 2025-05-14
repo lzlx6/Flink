@@ -1,13 +1,17 @@
-package com.cx.utils;
+package com.lzy.stream.realtime.v1.utils;
 
-import com.cx.constant.Constant;
 import com.google.common.base.CaseFormat;
+import com.lzy.stream.realtime.v1.constant.Constant;
 import org.apache.commons.beanutils.BeanUtils;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author zheyuan.liu
+ * @date 2025-04-30
+ */
 public class JdbcUtil {
     //获取MySQL连接
     public static Connection getMySQLConnection() throws Exception {
@@ -53,4 +57,5 @@ public class JdbcUtil {
 
         return  resList;
     }
+
 }

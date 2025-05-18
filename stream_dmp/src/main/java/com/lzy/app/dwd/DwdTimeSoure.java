@@ -75,13 +75,13 @@ public class DwdTimeSoure {
 
                 connection = JdbcUtil.getMySQLConnection();
 
-                String sql1 = "  SELECT                                                        \n" +
-                        "   b3.id, b3.name3 b3name, b2.name2 b2name, b1.name1 b1name           \n" +
-                        "   FROM realtime_dmp.base_category3 as b3                             \n" +
-                        "   JOIN realtime_dmp.base_category2 as b2                             \n" +
-                        "   ON b3.category2_id = b2.id                                         \n" +
-                        "   JOIN realtime_dmp.base_category1 as b1                             \n" +
-                        "   ON b2.category1_id = b1.id                                           ";
+                String sql1 = "  SELECT                                                                  \n" +
+                    "   b3.id, b3.name3 b3name, b2.name2 b2name, b1.name1 b1name                         \n" +
+                    "   FROM realtime_dmp.base_category3 as b3                                           \n" +
+                    "   JOIN realtime_dmp.base_category2 as b2                                           \n" +
+                    "   ON b3.category2_id = b2.id                                                       \n" +
+                    "   JOIN realtime_dmp.base_category1 as b1                                           \n" +
+                    "   ON b2.category1_id = b1.id                                                         ";
                 dim_base_categories = JdbcUtil.queryList(connection, sql1, DimBaseCategory.class, false);
 
                 String querySkuSql = "  select sku_info.id AS id,                                        \n" +

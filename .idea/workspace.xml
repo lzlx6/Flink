@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8185b382-4f4a-4659-9135-8113c7516eb2" name="更改" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream_dmp/src/main/java/com/lzy/app/dwd/DwdTimeSoure.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream_dmp/src/main/java/com/lzy/app/dwd/DwdTimeSoure.java" afterDir="false" />
-    </list>
+    <list default="true" id="8185b382-4f4a-4659-9135-8113c7516eb2" name="更改" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +73,7 @@
       <workItem from="1747321125529" duration="33000" />
       <workItem from="1747404851811" duration="36000" />
       <workItem from="1747404919905" duration="89000" />
-      <workItem from="1747569708760" duration="92000" />
+      <workItem from="1747569708760" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -94,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747404966048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1747569824826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747569824826</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -37,8 +37,6 @@ public class DwdTimeSoure {
         KafkaSource<String> kafkaSource = FlinkSourceUtil.getKafkaSource("dwd_order_info_join", "DwdTimeSoure");
         DataStreamSource<String> fromSource = env.fromSource(kafkaSource, WatermarkStrategy.noWatermarks(), "kafkaSource");
 
-
-
 //        fromSource.print();
 
         //JSON 解析与时间戳提取：将字符串转为 JSONObject，并基于 ts_ms 字段设置事件时间；

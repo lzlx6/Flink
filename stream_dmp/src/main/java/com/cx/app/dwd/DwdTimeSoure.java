@@ -52,7 +52,6 @@ public class DwdTimeSoure {
 
 //        operator.print();
 
-
         //RichMapFunction 处理逻辑：
         //open 方法：连接 MySQL，加载商品（Sku）和类目维度表到内存；
         //map 方法：

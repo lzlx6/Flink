@@ -116,6 +116,7 @@ public class DwdDbApp {
 
 //        outputStreamOperator.print();
 
+
         //  join
         SingleOutputStreamOperator<JSONObject> UserinfoDs = streamOperator.filter(data -> data.containsKey("uid") && !data.getString("uid").isEmpty());
         SingleOutputStreamOperator<JSONObject> UserinfoSupDs = outputStreamOperator.filter(data -> data.containsKey("uid") && !data.getString("uid").isEmpty());

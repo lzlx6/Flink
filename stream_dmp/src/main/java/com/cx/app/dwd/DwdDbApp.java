@@ -62,6 +62,7 @@ public class DwdDbApp {
             @Override
             public void processElement(JSONObject value, ProcessFunction<JSONObject, JSONObject>.Context ctx, Collector<JSONObject> out) throws Exception {
                 JSONObject result = new JSONObject();
+
                 if (value.containsKey("after") && value.getJSONObject("after") != null) {
                     JSONObject after = value.getJSONObject("after");
                     result.put("uid", after.getIntValue("uid"));
